@@ -1,0 +1,62 @@
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.left img {
+    width: 130px;
+}
+.mid {
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.right {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.btn {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sacramento', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: purple;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font: 25px;
+    
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 18px 15px;
+}
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: green;
+}
+.content {
+    margin: auto;
+    font-size: 55px;
+    color: red;
+    width: 50%;
+    border: 0px solid red;
+    padding: 10px;
+}

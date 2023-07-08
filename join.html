@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Form</title>
+</head>
+<style>
+    body {
+      background-image: url('./img/joinbg.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+</style>
+<body>
+    <h1>Gym Join Form</h1>
+    <form id="join-form" onsubmit="submitForm(event)" action="https://formsubmit.co/el/tenepa">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Join">
+    </form>
+</body>
+</html>
